@@ -13,6 +13,10 @@ export default function App() {
       setListItems(JSON.parse(storedItems));
     }
   }, []);
+  
+  function editIeam(index){
+    
+  }
 
   function deleteItem(index) {
     // Retrieve the array from localStorage
